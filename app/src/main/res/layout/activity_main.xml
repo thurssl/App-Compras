@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laranja"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/rosa"
+        android:textColor="@color/black"
+        android:text="Mercado Arthur"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/chkPicanha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="15dp"
+        android:text="PICANHA (R$ 36,90)"
+        android:textSize="30dp" />
+    <CheckBox
+        android:id="@+id/chkCarvao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="CARVÃO 5KG (R$ 5,69)"
+        android:textSize="30dp"/>
+    <CheckBox
+        android:id="@+id/chkLenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:text="LENHA SACO (R$ 12,15)"
+        android:textSize="30dp"/>
+    <CheckBox
+        android:id="@+id/chkCOSTELA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:text="COSTELA (R$ 30,50)"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total das compras"
+        android:layout_below="@+id/chkCOSTELA"
+        android:textSize="20sp"
+        android:textColor="@color/vermenlho"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="70dp"/>
+
+</RelativeLayout>
+
+
